@@ -57,5 +57,14 @@ img {
 }
 #home {
   background-color: rgba(0,0,0,.3);
-  height: 93vh;
+  height: 100vh;
+}
+#projects {
+  background-color: rgb(177, 186, 249);
+}
+
+
+.contact {
+  height: 48px;
+  width: 48px;
 }
