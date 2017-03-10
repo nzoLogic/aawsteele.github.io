@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  $('.parallax').parallax()
+  // $('ul.tabs').tabs({swipeable: true, responsiveThreshold: '100vw'})
 })
