@@ -38,11 +38,11 @@ footer {
   text-align: center;
 }
 
-.card {
-  /*background-color: rgba(255,255,255,.35) !important;*/
-}
 .card:hover {
   background-color: rgba(17, 16, 16, 0.8) !important;
-  color: #fff !important;
-  transition: .1s;
+  color: #fff;
+}
+
+.card:hover .red-hover {
+  color: rgb(185, 15, 15) !important;
 }
