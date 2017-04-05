@@ -9,12 +9,14 @@
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/css/materialize.min.css">
 
     <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
     <!-- google icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
     <!-- STYLES -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- JS -->
@@ -22,205 +24,214 @@
 </head>
 
 <body>
-    <div class="navbar-fixed navbar-extended">
-        <nav class="grey darken-4">
-            <div class="nav-wrapper">
-              <ul id="nav-mobile" class="tabs tabs-transparent container">
-                <li class="tab"><a href="#home">Home</a></li>
-                <li class="tab"><a href="#skills">Skills</a></li>
-                <li class="tab"><a href="#projects">Projects</a></li>
-                <li class="tab"><a href="#about">About</a></li>
-              </ul>
-            </div>
-        </nav>
-    </div>
 
     <!-- HOME -->
-    <section class="section" id="home">
-        <h3 class="center white-text">Hi, I'm Aaron, a full-stack web developer.</h3>
-        <h3 class="center white-text">Lets build ideas together!</h3>
+    <section class="parallax-container" id="home">
+        <div class="row">
+            <header>
+                <h3 class="center white-text"><span class="light-blue-text text-lighten-4">Aaron Steele</span> | <span class="red-text text-lighten-4">Web Developer</h3>
+                <nav>
+                    <div class="nav-wrapper">
+                        <ul class="brand-logo center">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#about">About</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="arrow bounce"></div>
+            </header>
+        </div>
+        <div class="parallax">
+            <img src="styles/images/stars.jpg" alt="mountains">
+        </div>
+        <h5 class="white-text center sub-head">Lets explore ideas together!</h5>
+        <div class="clouds"></div>
+
     </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="section">
+    <!-- SKILLS -->
+    <section id="skills" class="section scrollspy">
+        <h3 class="center-align light-blue-text">Technical Skills</h3>
         <div class="row">
             <div class="col s12 l6 offset-l3">
-                <h3 class="center white-text">A Little About Me...</h3>
-                <hr />
+                <h5 class="center">Being immensely curious about the forces that connect us, I try and learn as much as I can about the web. Here's some hard skills I've acquired.</h5>
+                <br>
             </div>
         </div>
-        <div class="row section">
-            <div class="col l8 offset-l2">
-                <div class="card horizontal">
-                    <div class="card-image">
-                        <img class="responsive-image" src="styles/images/self.jpg">
-                    </div>
-                    <div class="card-content">
-                        <table class="bordered">
-                            <tbody>
-                                <tr>
-                                    <td><b>Name:</b></td>
-                                    <td>Aaron Steele</td>
-                                </tr>
-                                <tr>
-                                    <td><b>Current City:</b></td>
-                                    <td>San Francisco, CA</td>
-                                </tr>
-                                <tr>
-                                    <td><b>Current Company:</b></td>
-                                    <td>seeking employment</td>
-                                </tr>
-                                <tr>
-                                    <td><b>Currently Reading:</b></td>
-                                    <td>The Seventh Sense: Power, Fortune, and Survival in the Age of Networks -Joshua Cooper Ramo</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
+        <div class="row flow-text">
+            <div class="col s12 l2 card z-depth-0 offset-l2">
+                <p class="center"><i class="large material-icons blue-text">code</i></p>
+                <h5 class="center light-blue-text">Languages</h5>
+                <p class="center red-hover">Javascript, Ruby, HTML5, CSS3</p>
             </div>
-
-            <div class="col l8 offset-l2">
-                <div class="card responsive-text">
-                    <div class="card-content">
-                        <span class="card-title white-text center red-hover">"There is nothing so powerful as an idea whose time has come" <i>-Victor Hugo</i></span>
-                        <hr />
-                        <p class="center">Originally born in South Carolina, I moved to San Francisco to pursue my dream of creating products, companies, and relationships that influence and change the world we live in.</p>
-                        <hr />
-                        <p class="center">I have a natural ability to think on a grand scale. I keep my eyes focused on the horizon, concerning myself with not only what must be done, but also what is possible in time. Yet, by nature, I am curious about the underlying
-                            mechanisms which naturally lead me to become a full-stack web developer. There's something about taking an idea, product, or application and breaking it apart into small modular pieces that I find irresistible.</p>
-                        <hr />
-                    </div>
-                </div>
+            <div class="col s12 l2 card z-depth-0">
+                <p class="center"><i class="large material-icons blue-text">line_weight</i></p>
+                <h5 class="center light-blue-text">Frameworks</h5>
+                <p class="center red-hover">Node.js, React, Express, Angular, Rails, Handlebars</p>
             </div>
-        </div>
-    </section>
-    <!-- SKILLS -->
-    <section id="skills">
-            <div class="row">
-                <div class="col s12 l6 offset-l3">
-                    <h3 class="center white-text">Technical Skills</h3>
-                    <hr />
-                </div>
+            <div class="col s12 l2 card z-depth-0">
+                <p class="center"><i class="large material-icons blue-text">storage</i></p>
+                <h5 class="center light-blue-text">Databases</h5>
+                <p class="center red-hover">MongoDB, Postgresql</p>
             </div>
-            <div class="row">
-                <div class="col s12 l6 offset-l3">
-                    <h5 class="center white-text">Being immensely curious about the forces that connect us, I try and learn as much as I can about the web. Here's some hard skills I've acquired.</h5>
-                    <br>
-                    <hr />
-                </div>
+            <div class="col s12 l2 card z-depth-0">
+                <p class="center"><i class="large material-icons blue-text">language</i></p>
+                <h5 class="center light-blue-text">Other</h5>
+                <p class="center red-hover">Heroku, Git, RESTful APIs, JSON, AJAX, jQuery</p>
             </div>
-            <div class="row">
-                <div class="col s12 l3 offset-l3 card skill ">
-                    <p class="center"><i class="large material-icons">airplay</i></p>
-                    <h5 class="center">Languages</h5>
-                    <hr />
-                    <p class="center red-hover">Javascript, Ruby, HTML5, CSS3</p>
-                </div>
-                <div class="col s12 l3 offset-l1 card skill">
-                    <p class="center"><i class="large material-icons">line_weight</i></p>
-                    <h5 class="center">Frameworks</h5>
-                    <hr />
-                    <p class="center red-hover">Node.js, React, Express, Angular, Rails, Handlebars</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col s12 l3 offset-l3 card skill">
-                    <p class="center"><i class="large material-icons">storage</i></p>
-                    <h5 class="center">Databases</h5>
-                    <hr />
-                    <p class="center red-hover">MongoDB, Postgresql, Mongoose, ActiveRecord</p>
-                </div>
-                <div class="col s12 l3 offset-l1 card skill">
-                    <p class="center"><i class="large material-icons">cloud</i></p>
-                    <h5 class="center">APIs</h5>
-                    <hr />
-                    <p class="center red-hover">Google Maps, Google Geolocation, Spotify, Giphy</p>
-                </div>
         </div>
     </section>
 
     <!-- PROJECTS -->
-    <section id="projects" class="blue-grey darken-4">
+    <section id="projects" class="section scrollspy light-blue lighten-2 white-text">
+        <h3 class="center red-text text-lighten-4">Projects</h3>
         <div class="row">
             <div class="col s12 l6 offset-l3">
-                <h3 class="center white-text">Personal Projects</h3>
-                <hr />
+                <h5 class="center">
+                  Collaborating ideas with UX designers, potential clients, or other engineers is always exciting! Here's a few collaborative ideas I've worked on.
+                </h5>
+                <br><br>
             </div>
         </div>
         <div class="row">
-            <div class="col s12 l6 offset-l3">
-                <h5 class="center white-text">Having recently graduated from General Assembly's Full-Stack Web Development immersive, here are some of the projects I made.</h5>
-                <br>
+            <div class="col s12 l5 offset-l2">
                 <hr />
             </div>
         </div>
-        <div class="row">
+
+        <div class="row section">
             <div class="col s12 l3 offset-l2">
-                <div class="card medium hoverable">
-                    <div class="card-image">
-                        <a href="https://react-festivals.herokuapp.com">
-                            <img src="styles/images/festival.png"></a>
-                    </div>
-                    <div class="card-content">
-                        <p>React-Festivals is a MERN (mongoose, express, react, node) stack application I built as I was learning ReactJS. I really wanted to showcase my ability to learn new frameworks on my own and build full-stack apps that use RESTful APIs.</p>
-                    </div>
-                    <div class="card-action">
-                      <a href="https://github.com/nzoLogic/festivals">Github</a>
-                    </div>
+                <h5 class="red-text text-lighten-4">Festivals</h5>
+                <p>React-Festivals is a MERN (mongoose, express, react, node) stack application I built as I was learning ReactJS. I really wanted to showcase my ability to learn new frameworks on my own and build full-stack apps that use RESTful APIs.
+                </p>
+                <a class="btn light-blue" href="https://react-festivals.herokuapp.com">Visit</a>
+                <a class="btn light-blue" href="https://github.com/nzoLogic/festivals">Github</a>
+            </div>
+            <div class="col s12 l3 offset-l1">
+                <div class="card-image">
+                    <img src="styles/images/festival.png">
                 </div>
             </div>
-            <div class="col s12 l3">
-                <div class="card medium hoverable">
-                    <div class="card-image">
-                        <a href="https://theunderground.herokuapp.com">
-                            <img src="styles/images/underground.png"></a>
-                    </div>
-                    <div class="card-content responsive-text">
-                        <p>The underground is a solo project created with ruby on rails. The app lets bassnectar fans connect and share content from previous shows. Implemented oAuth with Facebook login and collaborated with UX designer to wireframe </p>
-                    </div>
-                    <div class="card-action">
-                      <a href="https://github.com/nzoLogic/the-underground">Github</a>
-                    </div>
+        </div>
+        <div class="row">
+            <div class="col s12 l5 offset-l5">
+                <hr />
+            </div>
+        </div>
+        <div class="row section">
+            <div class="col s12 l3 offset-l3">
+                <div class="card-image">
+                    <img src="styles/images/underground.png">
                 </div>
             </div>
-            <div class="col s12 l3">
-                <div class="card medium hoverable">
-                    <div class="card-image">
-                        <a href="https://findme-game.herokuapp.com/">
-                            <img src="styles/images/findMe.png">
+            <div class="col s12 l3 offset-l1">
+                <h5 class="red-text text-lighten-4">The Underground</h5>
+                <p>The underground is a solo project created with ruby on rails. The app lets bassnectar fans connect and share content from previous shows. Implemented oAuth with Facebook login and collaborated with UX designer to wireframe.
+                </p>
+                <a class="btn light-blue" href="https://theunderground.herokuapp.com">Visit</a>
+                <a class="btn light-blue" href="https://github.com/nzoLogic/the-underground">Github</a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 l5 offset-l2">
+                <hr />
+            </div>
+        </div>
+
+        <div class="row section">
+            <div class="col s12 l3 offset-l2">
+                <h5 class="red-text text-lighten-4">findMe</h5>
+                <p>Hide-and-go-seek themed application. Group project where I was responsible for writing game mechanics in Javascript, set up Postgresql database relationships, write google maps functionality in JS
+                </p>
+                <a class="btn light-blue" href="https://findme-game.herokuapp.com">Visit</a>
+                <a class="btn light-blue" href="https://github.com/aquoss/Project-2">Github</a>
+            </div>
+            <div class="col s12 l3 offset-l1">
+                <div class="card-image">
+                    <img src="styles/images/findMe.png">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section scrollspy">
+
+        <h3 class="center light-blue-text">A Little About Me...</h3>
+        <div class="row section">
+            <div class="col l3 offset-l2">
+                <div class="card-image">
+                    <img src="styles/images/self.jpg">
+                </div>
+                <div class="card-content">
+                    <table class="bordered">
+                        <tbody class="flow-text">
+                            <tr>
+                                <td class="light-blue-text flow-text"><b>Name:</b></td>
+                                <td class="flow-text">Aaron Steele</td>
+                            </tr>
+                            <tr>
+                                <td class="light-blue-text"><b>Current City:</b></td>
+                                <td>San Francisco, CA</td>
+                            </tr>
+                            <tr>
+                                <td class="light-blue-text"><b>Current Company:</b></td>
+                                <td>freelance/transitioning roles</td>
+                            </tr>
+                            <tr>
+                                <td class="light-blue-text"><b>Currently Reading:</b></td>
+                                <td>The Seventh Sense: Power, Fortune, and Survival in the Age of Networks -Joshua Cooper Ramo</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="col l4 offset-l1">
+                <h5 class="center-align flow-text">"There is nothing so powerful as an idea whose time has come" <i class="light-blue-text">-Victor Hugo</i></h5>
+                <p class="flow-text">Originally born in South Carolina, I moved to San Francisco to pursue my dream of creating products, companies, and relationships that influence and change the world we live in.</p>
+                <p class="flow-text">I have a natural ability to think on a grand scale. I keep my eyes focused on the horizon, concerning myself with not only what must be done, but also what is possible in time. Yet, by nature, I am curious about the underlying mechanisms
+                    which naturally lead me to become a full-stack web developer. There's something about taking an idea, product, or application and breaking it apart into small modular pieces that I find irresistible.</p>
+            </div>
+            <div class="row">
+                <div class="col l4 offset-l1">
+                    <h3 class="red-text text-lighten-4 center-align">Lets connect!</h5>
+                    <div class="divider"></div>
+
+                    <div class="section">
+                        <div class="col l2 offset-l2">
+                          <a href="https://www.linkedin.com/in/a-steele/">
+                            <img src="styles/images/linkedin.svg">
+                          </a>
+                        </div>
+                      <div class="col l2">
+                        <a href="https://www.github.com/nzoLogic">
+                          <img src="styles/images/github.svg">
                         </a>
-                    </div>
-                    <div class="card-content">
-                        <p>Hide-and-go-seek themed application. Group project where I was responsible for writing game mechanics in Javascript, set up Postgresql database relationships, write google maps functionality in JS</p>
-                    </div>
-                    <div class="card-action">
-                      <a href="https://github.com/aquoss/Project-2">Github</a>
-                    </div>
+                      </div>
+                      <div class="col l2">
+                        <a href="https://twitter.com/nzoLogic">
+                          <img src="styles/images/twitter.svg">
+                        </a>
+                      </div>
+                  <div class="col l2">
+                    <a href="https://www.facebook.com/aaronncuzz">
+                        <img src="styles/images/facebook.svg">
+                    </a>
+                  </div>
+                </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- RESUME -->
-    <footer class="page-footer grey darken-4">
-        <div class="container">
-            <div class="row">
-                <h5 class="white-text">Reach out at <a class="mail" href="mailto:aawsteele@gmail.com" target="_blank">aawsteele@gmail.com</a></h5>
-
-                <a href="https://www.linkedin.com/in/a-steele/">
-                  <img class="contact" src="styles/images/square-linkedin.png">
-                </a>
-                <a href="https://www.github.com/nzoLogic">
-                  <img class="contact" src="styles/images/ghub.png">
-                </a>
-            </div>
-        </div>
-        <div class="footer-copyright grey darken-4">
-            <div class="container">
-                Created by Aaron Steele © 2017
-            </div>
-        </div>
+    <footer class="page-footer white">
+      <div class="container">
+        Created by Aaron Steele © 2017
+      </div>
     </footer>
 </body>
 
